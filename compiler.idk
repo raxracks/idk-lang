@@ -1,0 +1,11 @@
+def buffer_length = 10000
+
+fn : void main( num argc, string argv[] ) {
+    string input = read_file ( argv[1] )
+    string buffer[ buffer_length ]
+    num length = split_string ( input, "\n", buffer )
+
+    for ( num i = 0; i < length; i++ ) {
+        
+    }
+}
